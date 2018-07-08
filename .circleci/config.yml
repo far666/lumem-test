@@ -17,8 +17,6 @@ jobs:
 
     steps:
       - checkout
-      - run: 
-        echo  "test mdfk"
-      - run:
-          composer update
+      - run: echo  "test mdfk"
+      - run: composer update
 
