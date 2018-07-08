@@ -24,4 +24,8 @@ class TestController extends Controller
         return sprintf("Hi! %s!", $name);
     }
 
+    public function givemeMoney()
+    {
+        return "impossible";
+    }
 }
