@@ -20,3 +20,7 @@ jobs:
       - run: echo  "test mdfk"
       - run: composer update
       - run: ./vendor/bin/phpunit
+general:
+  branches:
+    only:
+      - master
